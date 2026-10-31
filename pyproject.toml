@@ -1,0 +1,16 @@
+[project]
+name = "ai-productivity-margin-analysis"
+version = "0.1.0"
+description = "How AI usage intensity affects profit margins in business workflows (Lasso, Linear Regression, Random Forest, SHAP)"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "jupyter>=1.1.1",
+    "matplotlib>=3.10.8",
+    "missingno>=0.5.2",
+    "numpy>=2.4.3",
+    "pandas>=3.0.1",
+    "scikit-learn>=1.8.0",
+    "seaborn>=0.13.2",
+    "shap>=0.48.0",
+]
